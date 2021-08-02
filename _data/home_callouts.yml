@@ -1,0 +1,16 @@
+style: is-light
+items:
+  - title: Wellington Azure Meetup
+    call_to_action_name: Join our meetup
+    call_to_action_link: https://www.meetup.com/Wellington-Azure-Meetup/
+    subtitle: Run by the community for the community.
+    description: For all of you interested in Microsoft Azure, whether your interest is as a developer or an IT Pro.
+  #- title: Blog included
+  #  subtitle: Layouts for blog and post pages included
+  #  icon: fa-mail-bulk
+  - title: Suggest a correction or a new idea
+    subtitle: Using github issues
+    icon: fa-github
+    icon_brand: true
+    call_to_action_name: Issues
+    call_to_action_link: https://github.com/craigofnz/craigofnz.github.io/issues
