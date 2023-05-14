@@ -44,9 +44,11 @@ module.exports = {
         // You'll have to set this manually in your build settings.
         // The value comes from Algolia, and is either visible in the
         // UI for the Crawler Plugin or the Algolia Dashboard.
-        siteId: process.env.ALGOLIA_SITE_ID,
+        //siteId: process.env.ALGOLIA_SITE_ID,
         // Assuming that you deploy your "main" branch. Otherwise you
         // can either override or configure this (using process.env.HEAD)
-        branch: "main"
+        branch: "main",
+        // Index name from Algolia setup, Netlify setup seems ummm unique
+        searchIndex: process.env.ALGOLIA_INDEX
     }
 };

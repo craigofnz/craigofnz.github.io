@@ -484,7 +484,7 @@ html[class="dark"] ul.pagination div.active {
 
 .attention {
     padding: 20px;
-    background-color: #f44336;
+    background-color: red;
     color: white;
     margin-bottom: 15px;
     border-radius: 0.25rem;
