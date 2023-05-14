@@ -1,0 +1,22 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{ craigsGist }</title>
+  <subtitle>Personal blog about designing, implementing and securing software and services to operate in the cloud</subtitle>
+  <link href="http://localhost:8080/blog.rss" rel="self"/>
+  <link href="http://localhost:8080"/>
+  <updated>2023-05-13T00:00:00Z</updated>
+  <id>http://localhost:8080</id>
+  <author>
+    <name>Craig McGregor</name>
+  </author>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://localhost:8080/posts/2023/hello-world/"/>
+    <updated>2023-05-13T00:00:00Z</updated>
+    <id>http://localhost:8080/posts/2023/hello-world/</id>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Bing Image Creator&lt;/strong&gt;: &lt;code&gt;Create a hello world image for a cloud technology blog that includes the text &amp;quot;hello world&amp;quot;, futurism&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Firstly, I would like to thank the AI for rendering a Death Star to describe this blog 😉. Hopefully the obedience and accuracy of generative content can improve along with my own writing and technical knowledge as this blog...</content>
+  </entry>
+</feed>
