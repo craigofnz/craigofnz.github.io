@@ -1,7 +1,8 @@
 {
     "recommendations": [
-        "DavidAnson.vscode-markdownlint",
+        "davidanson.vscode-markdownlint",
         "esbenp.prettier-vscode",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "github.vscode-github-actions"
     ]
 }
