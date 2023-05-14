@@ -8,7 +8,7 @@ module.exports = {
     // Profile image for left sidebar
     image: "/assets/images/sidebar_profile.jpg",
     // Image alt text for left sidebar
-    imageAlt: "René and Einstein",
+    imageAlt: "Craig McGregor's Avatar",
     // Author name, shown in left sidebar, and used in JSON-LD
     author: "Craig McGregor",
     // Site description, shown below site image (optional)
