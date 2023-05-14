@@ -16,7 +16,6 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
 const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
 
-
 module.exports = function (eleventyConfig) {
     // Set Markdown library
     eleventyConfig.setLibrary(
@@ -26,13 +25,14 @@ module.exports = function (eleventyConfig) {
             xhtmlOut: true,
             linkify: true,
             typographer: true
-        }).use(markdownItAnchor)
-          .use(markdownItTasks) //craigsGist additions from here down
-          .use(markdownItEmoji)
-          .use(markdownItContainer, "bestpractice")
-          .use(markdownItContainer, "information")
-          .use(markdownItContainer, "warning")          
-          .use(markdownItContainer, "attention")
+        })
+            .use(markdownItAnchor)
+            .use(markdownItTasks) //craigsGist additions from here down
+            .use(markdownItEmoji)
+            .use(markdownItContainer, "bestpractice")
+            .use(markdownItContainer, "information")
+            .use(markdownItContainer, "warning")
+            .use(markdownItContainer, "attention")
     );
 
     // Define passthrough for assets
@@ -156,18 +156,15 @@ module.exports = function (eleventyConfig) {
     // Plugin for minifying HTML
     eleventyConfig.addPlugin(require("./_11ty/html-minify.js"));
 
-
     // Additions for craigsGist
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(pluginMermaid, {
-        html_tag: 'pre',
-        extra_classes: 'graph'
+        html_tag: "pre",
+        extra_classes: "graph"
     });
     eleventyConfig.addPlugin(inclusiveLangPlugin, {
         setTemplateFormats: ["md"]
     });
-
-
 
     return {
         dir: {

@@ -12,7 +12,8 @@ module.exports = {
     // Author name, shown in left sidebar, and used in JSON-LD
     author: "Craig McGregor",
     // Site description, shown below site image (optional)
-    description: "Personal blog about designing, implementing and securing software and services to operate in the cloud",
+    description:
+        "Personal blog about designing, implementing and securing software and services to operate in the cloud",
     // OpenGraph default image, in case you don't have an `image`
     // set in your Markdown frontmatter; relevant for social
     // sharing.
