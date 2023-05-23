@@ -8,7 +8,7 @@ if (isProduction) {
 }
 
 module.exports = {
-    content: ['_site/**/*.html'],
+    content: ['_site/**/*.html','_site/**/*.js','_site/*.html'],
     purge,
     darkMode: "class",
     plugins: [
