@@ -8,7 +8,22 @@ if (isProduction) {
 }
 
 module.exports = {
-    content: ['./_site/**/*.html','./_site/**/*.js','./_site/*.html'],
+    content: [
+        './_site/**/*.html',
+        './_site/**/*.js',
+        './_site/**/.css',
+        './_site/**/*.png',
+        './_site/**/*.xml',
+        './_site/**/*.ico',
+        './_site/**/*.jpg',
+        './_site/**/*.svg',
+        './_site/**/*.webmanifest',
+        './_site/**/*.webp',
+        './_site/blog.rss',
+        './_site/*.html',
+        './_site/sitemap.xml',
+        './_site/robots.txt'
+    ],
     purge,
     darkMode: "class",
     plugins: [
