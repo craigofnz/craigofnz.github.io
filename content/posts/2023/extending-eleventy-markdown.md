@@ -11,7 +11,7 @@ To ensure productivity going forward, I'll demonstrate a few simple tweaks on to
 
 By operating in strict conformance with standards by default, _out-of-the-box_ Eleventy only supports markdown conventions included in the [CommonMark](https://commonmark.org/) and CommonMark doesn't necessarily include all the markdown features that we're used to such as GitHub style task lists.
 
-```
+```markdown
 - [ ] GitHub Task lists
 - [ ] Emoji support, especially since I prefer a concise and informal style :>
 - [ ] Important messages
@@ -36,7 +36,6 @@ npm install markdown-it-task-lists
 npm install markdown-it-emoji
 npm install markdown-it-container
 ```
-
 
 ### Configuration
 
@@ -80,7 +79,6 @@ And some styling tweaks for each container in `site.css`
 }
 ```
 
-
 ### Testing Output from these Tweaks
 
 #### Github style task list?
@@ -93,12 +91,10 @@ And some styling tweaks for each container in `site.css`
     - [ ] incomplete 2xnested-task
       - [ ] incomplete 3xnested-task
 
-
 #### Emoji
 
 - Craig is also a :bicyclist:
 - Some unicodes, such as `1f4a9` = :poop: are easier to remember than others
-
 
 #### Fenced Containers
 
