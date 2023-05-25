@@ -8,4 +8,11 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>http://localhost:8080/posts/2023/extending-eleventy-markdown/</loc>
+    <lastmod>2023-05-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

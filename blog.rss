@@ -5,11 +5,20 @@
   <subtitle>Personal blog about designing, implementing and securing software and services to operate in the cloud</subtitle>
   <link href="/blog.rss" rel="self"/>
   <link href="http://localhost:8080"/>
-  <updated>2023-05-13T00:00:00Z</updated>
+  <updated>2023-05-25T00:00:00Z</updated>
   <id>http://localhost:8080</id>
   <author>
     <name>Craig McGregor</name>
   </author>
+  
+  <entry>
+    <title>Extending Eleventy Markdown</title>
+    <link href="/posts/2023/extending-eleventy-markdown/"/>
+    <updated>2023-05-25T00:00:00Z</updated>
+    <id>/posts/2023/extending-eleventy-markdown/</id>
+    <content type="html">&lt;p&gt;I have long been a fan of static site generators for their attributes of superior security, performance and low cost to host. Static site generators are also improving in functionaly rapidly. &lt;a href=&quot;/&quot;&gt;craigsGist&lt;/a&gt; is built using the &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; static site generator.&lt;/p&gt;
+&lt;p&gt;To ensure productivity going forward, I’ll demonstrate a few simple tweaks on top of...</content>
+  </entry>
   
   <entry>
     <title>Hello World</title>
