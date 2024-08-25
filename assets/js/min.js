@@ -81,9 +81,9 @@ const hideSearchContents = () => {
 };
 
 const searchContent = (e) => {
-    const INDEX = "netlify_undefined_main_all";
-    const APP_ID = "undefined";
-    const API_ID = "undefined";
+    const INDEX = "process.env.ALGOLIA_INDEX";
+    const APP_ID = "process.env.ALGOLIA_APP_ID";
+    const API_ID = "process.env.ALGOLIA_SEARCH_API_KEY";
 
     const keywords = e.target.value;
 
