@@ -13,7 +13,9 @@ module.exports = {
     author: "Craig McGregor",
     // Site description, shown below site image (optional)
     description:
-        "Aspiring to get to the gist of all the things.<br/><br/>A personal blog about designing, implementing and securing software and services to operate in the cloud",
+        "Aspiring to get to the gist of all the things.
+
+A personal blog about designing, implementing and securing software and services to operate in the cloud",
     // OpenGraph default image, in case you don't have an `image`
     // set in your Markdown frontmatter; relevant for social
     // sharing.
