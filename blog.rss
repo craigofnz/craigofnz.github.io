@@ -2,7 +2,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{ craigsGist }</title>
-  <subtitle>Aspiring to get to the gist of all the things.&lt;br/&gt;&lt;br/&gt;A personal blog about designing, implementing and securing software and services to operate in the cloud</subtitle>
+  <subtitle>Aspiring to get to the gist of all the things.
+
+A personal blog about designing, implementing and securing software and services to operate in the cloud</subtitle>
   <link href="/blog.rss" rel="self"/>
   <link href="http://localhost:8080"/>
   <updated>2023-05-25T00:00:00Z</updated>
